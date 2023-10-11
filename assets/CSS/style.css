@@ -58,6 +58,14 @@ footer {
         width: 45%;
     }
     #player-img {
+        max-width: 75%;     
+    }
+    .computer {
+        background-color: mediumblue;
+        float: right;
+        width: 45%;
+    }
+    #computer-img {
         max-width: 75%;
-             
+        
     }
