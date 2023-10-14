@@ -8,6 +8,13 @@ const choices = ["Rock", "Paper", "Scissors"];
 //* Add Event Listener for buttons *//
 
 for (let button of buttons) {button.addEventListener("click", function () {
-    let player
+    let playerchoice = this.getattribute("data-choice");
+    playGame(playerchoice);
+});
 }
-)}
+
+//* main game function *//
+
+function playGame(playerchoice) {
+    playerImage.src = assets/images/$choices[playerchoice]}.png ;
+    playerImage.alt = choices[playerChoice]
